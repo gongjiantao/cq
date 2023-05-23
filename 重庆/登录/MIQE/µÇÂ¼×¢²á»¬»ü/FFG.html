@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+a:link{
+
+color:#003;
+
+}
+
+a:visited{
+
+color:#ff0000;
+
+}
+
+a:hover{
+
+color:#0000ff;
+
+}
+
+a:active{
+
+color:#00ff00;
+
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百事项目组登陆后台</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container right-panel-active">
+        <!-- 注册 -->
+        <div class="container__form container--signup">
+            <form action="../../../导航栏网页/首页.html" class="form" id="form1">
+                <h2 class="form__title">注册账号</h2>
+                <input type="text" placeholder="User" class="input" />
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Password" class="input" />
+                <button class="btn">点击注册</button>
+            </form>
+        </div>
+
+        <!-- 登录 -->
+        <div class="container__form container--signin">
+            <form action="../../../导航栏网页/首页.html" class="form" id="form2">
+                <h2 class="form__title">登陆</h2>
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Password" class="input" />
+                <a href="#" class="link">又忘记密码了?</a>
+                <button class="btn"><a href="../../../导航栏网页/首页.html" style="text-decoration:none">登录</a></button>
+            </form>
+        </div>
+
+        <!-- 叠加部分 -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">已有账号，直接登录</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">没有账号，点击注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
