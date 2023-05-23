@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="../小插图/IMG_20220408_212943.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.lxj.com</title>
+
+<link href="../css/导航栏6.css" rel="stylesheet" type="text/css" />
+<style>
+a:link{
+
+color:#FFF;
+
+}
+
+a:visited{
+
+color:#FFF;
+
+}
+
+a:hover{
+
+color:#FFF;
+
+}
+
+a:active{
+
+color:#FFF;
+
+}
+</style>
+<style>
+
+.imagetest:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(#66ccff 0 50px);
+    
+}
+
+.imagetest{
+    width:50px;
+    height:50px;
+    overflow:hidden;
+}
+
+.img {
+    height: 26px;
+    overflow: hidden;
+}
+
+ .img:hover img {
+    transform: translateY(-26px);
+    filter: drop-shadow(#656FF4 0 26px);
+}
+
+
+</style>
+</head>
+
+<body>
+
+ <script>
+        (function () {
+            var a_idx = 0;
+            window.onclick = function (event) {
+                var a = new Array("❤富强❤", "❤民主❤", "❤文明❤", "❤和谐❤", "❤自由❤", "❤平等❤", "❤公正❤", "❤法治❤", "❤爱国❤",
+                    "❤敬业❤", "❤诚信❤", "❤友善❤");
+ 
+                var heart = document.createElement("b"); //创建b元素
+                heart.onselectstart = new Function('event.returnValue=false'); //防止拖动
+ 
+                document.body.appendChild(heart).innerHTML = a[a_idx]; //将b元素添加到页面上
+                a_idx = (a_idx + 1) % a.length;
+                heart.style.cssText = "position: fixed;left:-100%;"; //给p元素设置样式
+ 
+                var f = 16, // 字体大小
+                    x = event.clientX - f / 2, // 横坐标
+                    y = event.clientY - f, // 纵坐标
+                    c = randomColor(), // 随机颜色
+                    a = 1, // 透明度
+                    s = 1.2; // 放大缩小
+ 
+                var timer = setInterval(function () { //添加定时器
+                    if (a <= 0) {
+                        document.body.removeChild(heart);
+                        clearInterval(timer);
+                    } else {
+                        heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                            c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                            s + ");";
+ 
+                        y--;
+                        a -= 0.016;
+                        s += 0.002;
+                    }
+                }, 15)
+ 
+            }
+            // 随机颜色
+            function randomColor() {
+ 
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+                .random() * 255)) + ")";
+ 
+            }
+        }());
+    </script>
+
+ <div class="top">
+                   <center> 
+                    <ul>
+                    <li><a href="首页.html">首页</a></li>
+                    <li><a href="../新建文件夹/滚动视频/index.html">重庆风采</a></li>
+                  
+                    <li><a href="各区风采.html">各区风采</a></li>
+                    <li><a href="大城小事.html">大城小事</a></li>
+                    <li><a href="我们眼中的重庆.html">我们眼中的重庆</a></li>
+                    <li><a href="红色记忆.html">红色记忆</a></li>
+                       <li>
+                        <a href="首页.html">中文</a>
+                        <ul>
+                            <li><a href="../韩语/导航栏网页/首页.html">한국어</a></li>
+                            <li><a href="../英语/导航栏网页/首页.html">English</a></li>
+                        </ul>
+                        
+                    </li> 
+                     <li><a href="联系我们.html">联系我们</a></li>
+                   
+                       <li><img src="../首页素材/图片/mmexport1653005128767.png" width="21" height="18" /><a href="../个人中心/1.html">个人中心</a><ul>
+                       <li><input type="radio" checked="checked" />无痕游览</li>
+                     
+                     </ul>
+</center>      
+            </div>
+
+<table width="1300" align="center" >
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="1300" align="center" >
+              <tr>
+                <td height="33">&nbsp;</td>
+              </tr>
+</table>
+<table width="1308"  align="center">
+              <tr>
+                <td width="1300" height="72" align="center"><img src="../图片/63904df3986d578820a1e3c39e1b2aa07c617b3a22e6d0d28e1a5807b951189c.0.PNG" width="410" height="301" /><img src="../图片/52bfa3c77f438158d4d0d385b7dd8e18977b37609d23470b0e74716ffa69f52a.0.PNG" width="344" height="99" /><img src="../红色记忆/图片/98c91abf08a359a445fa5aff67901dd8_cqls_logo_1.png" width="436" height="254" /><img src="../红色记忆/图片/30fa6974f29e40fb30a561c3626b52c2_dangqi.png" width="69" height="70" align="top" /></td>
+              </tr>
+            </table>
+<table width="1310"  align="center">
+              <tr>
+                <td width="1300" height="175"><p><img src="../红色记忆/图片/50250408da577c17caf8b4aadf490efa_MAIN202205090841198508051009396.png" width="1200" height="46" /></p></td>
+              </tr>
+</table>
+<table width="1300" align="center">
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FFFFFF">&nbsp;<strong>&nbsp;重庆市是一座举世闻名的历史文化名城，乃巴渝文化的发祥地，有文字记载的历史已达3000多年。早在公元前11世纪，这就是古代巴国的首都江州。因在此入长江的嘉陵江古称渝水，隋文帝杨坚遂于开皇三年（583年）在这里设置了渝州，是为重庆简称&ldquo;渝&rdquo;的由来。南宋淳熙使十六年（1189年），因这里曾是当朝天子宋光宗赵敦的潜藩之地，便循例于此置府，号曰&ldquo;重庆府&rdquo;，以志双重喜庆。其地遂以&ldquo;重庆&rdquo;为名，于今已有800余年了。<br />
+　　重庆曾经是古代巴国首都、农民革命政权大夏国国都，抗日战争期间是国民政府的陪都，素有&ldquo;三都之地&rdquo;之称。在这片富饶而美丽的土地上，勤劳、聪慧、热情的人民，创造了灿烂的物质文明和精神文明，为伟大的中华文明增添了光彩。新中国建立后，特别是改革开放以来的建设和发展，重庆已成为我国的特大城市之一，成为西南地区和长江上游最大的经济中心城市，重要的交通枢纽和内河口岸，拥有较为雄厚的经济和科教实力，在我国中西经济发展中具有十分重要的战略地位和作用。<br />
+　　重庆市不仅已经有了雄厚的经济、文化基础，而且具有十分突出的区位优势。正是因为它具有这种得天独厚的区位优势，自古以来都为中央政府所重视。1996年，根据党中央的决策，9月，重庆市代管了万县市、涪陵市和黔江地区；12月20日，国务院向全国人大常委会提出了关于提请审议设立重庆直辖市的议案。1997年2月，第八界全国人大常委会第二十四次会议审议了这一议案，决定提请第八界全国人大常委会第五次会议审议。同年3月14日，第八界全国人大代表大会第五次会议审议了国务院关于提请审议设立重庆直辖市议案，作出了《关于批准设立重庆直辖市的决定》。这个《决定》，主要内容是：&ldquo;一、批准设立重庆直辖市，撤消原重庆市。二、重庆直辖市管辖原重庆市、万县市、涪陵市和黔江地区所辖行政区域。三、重庆直辖市设立后，有国务院依据宪法和有关法律的规定，对其管辖的行政区域的建置和划分作相应的调整。&rdquo;<br />
+<br />
+　　重庆是一座有着悠久历史文化的名城。远在两万多年前的旧石器时代，这片土地上就出现了人类的生息繁衍活动，到新石器时代，已有较稠密的原始村落，分别居住着夷、濮、苴等八个民族。正是这些最早的重庆居民，创造了重庆最古老的历史文明。<br />
+<br />
+　　约在三四千年前的夏商周时期，以重庆为中心地带的大片地区，已形成强大的奴隶制部族联盟，统称巴。在甲骨文中，也有关于巴方的记载。</strong></font></td>
+  </tr>
+</table>
+<table width="1309" align="center">
+              <tr>
+                <td width="649" height="185" align="center" bgcolor="#E37780"><h1><font color="#FFFFFF">历史名人</font></h1></td>
+                <td width="650" align="center" bgcolor="#E37780"><p><img src="../红色记忆/图片/b3a1aa17c6776cbf338cfcee21788e30_pzh.png" width="203" height="57"></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../红色记忆/图片/e1e8f6ef7a7b31a1941e94defeca4bbd_lfc.png" width="180" height="55" /></p></td>
+  </tr>
+</table><a name="qq"></a>
+<table width="1308"  align="center">
+              <tr>
+                <td width="430"><img src="../红色记忆/图片/2/20201022115019f26ab.jpg" width="423" height="300" /></td>
+                <td width="430" align="center"><img src="../红色记忆/图片/2/7abe33e09863d6f18c1ddd63f4228aa4_20160224_190243.jpg" width="424" height="300" /></td>
+                <td colspan="2"><img src="../红色记忆/图片/3.jpg" width="430" height="300" /></td>
+              </tr>
+              <tr>
+                <td align="center"><h3><a href="../红色记忆/介绍汇报/1.html"  style="text-decoration:none">杨闇公（1898——1927）本籍</a></h3></td>
+                <td align="center"><h3><a href="../红色记忆/介绍汇报/2.html"  style="text-decoration:none">巴蔓子（生卒年不详）本籍</a></h3></td>
+                <td colspan="2" align="center"><h3>　<a href="../红色记忆/介绍汇报/3.html"  style="text-decoration:none">赵智凤（1159—1249） </a></h3></td>
+              </tr>
+              <tr>
+                <td height="42">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="348" rowspan="2" align="center"><img src="../红色记忆/图片/宋庆龄.jpg.jpg" width="430" height="300" /></td>
+                <td rowspan="2" align="center"><img src="../红色记忆/图片/11.jpg" width="430" height="300" /></td>
+                <td width="430" rowspan="2" align="center"><img src="../红色记忆/图片/2/d9bbdf6e9512dc634f0b76488fbd67bd_20160224_170326.jpg" width="411" height="308" /></td>
+                <td width="2" height="252" align="center">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center"><h3><a href="../红色记忆/介绍汇报/4.html"  style="text-decoration:none">宋庆龄（1893——1981）客籍</a></h3></td>
+                <td align="center"><h3><a href="../红色记忆/介绍汇报/5.html" style="text-decoration:none">刘伯承（1892—1986）本籍</a></h3></td>
+                <td colspan="2" align="center"><h3><a href="../红色记忆/介绍汇报/6.html" style="text-decoration:none">陈独秀（1879——1942）客籍</a></h3></td>
+              </tr>
+            </table><a name="lxj"></a>
+            <table width="1300"  align="center">
+              <tr>
+                <td width="433"><img src="../红色记忆/图片/2/t0119ab6e8cd7abfdf7.jpg" width="430" height="300" /></td>
+                <td width="433"><img src="../红色记忆/图片/2/t01505652d1bafe9bfc.jpg" width="430" height="300" /></td>
+                <td width="433"><img src="../红色记忆/图片/2/t01a02d28ea00250997.jpg" width="430" height="300" /></td>
+              </tr>
+              <tr>
+                <td width="433" align="center"><h3><a href="../红色记忆/介绍汇报/8.html" style="text-decoration:none">邹容(1885年-1905年)本籍人</a></h3></td>
+                <td width="433" align="center"><h3><a href="../红色记忆/介绍汇报/9.html" style="text-decoration:none">赵世炎(1901年4月13日 -1927年7月19日)，字琴生</a></h3></td>
+                <td width="433" align="center"><h3><a href="../红色记忆/介绍汇报/10.html" style="text-decoration:none">卢作孚，原名卢魁先，别名卢思</a></h3></td>
+              </tr>
+              <tr>
+                <td colspan="3" align="center"><a href="../红色记忆/导航栏子网页/立体1.html"><img src="../红色记忆/动图图/1652279556026_324x338.gif" width="362" height="301" /></a></td>
+              </tr>
+</table>
+            <table width="1300" border="1" align="center">
+              <tr>
+                <td width="665" align="center" bgcolor="#E37780"><h1>名家名作</h1></td>
+                <td width="619" bgcolor="#990000"><img src="../动图/8bd0fcbe223b20531900ab0e7e097b8550c25ad312c3d11c3af51763e63660b5.0.GIF" width="613" height="232" /></td>
+              </tr>
+            </table>
+            <table width="1302" align="center">
+              <tr><a name="abc"></a>
+                <td width="1294" height="645" align="center" bgcolor="#BB0404"><h3><a href="../红色记忆/名人名作/1.html" title="邹容爱国诗选" target="_self"  style="text-decoration:none">邹容爱国诗选</a></h3>
+                  <hr size="1" /> 
+                  <h3><a href="../红色记忆/名人名作/2.html" title="名人笔下的重庆（一）：丰子恺之《谢谢重庆》" target="_self"  style="text-decoration:none">名人笔下的重庆（一）：丰子恺之《谢谢重庆》</a></h3>
+                  <h3>
+                    <hr size="1">
+                  <a href="../红色记忆/名人名作/3.html" title="名人笔下的重庆（二）：茅盾之《‘雾重庆’拾零》" target="_self"  style="text-decoration:none">名人笔下的重庆（二）：茅盾之《&lsquo;雾重庆&rsquo;拾零》</a></h3>
+                  <h3>
+                    <hr size="1">
+                  <a href="../红色记忆/名人名作/4.html" title="名人笔下的重庆（三）：张恨水说重庆短文四则" target="_self"  style="text-decoration:none">名人笔下的重庆（三）：张恨水说重庆短文四则</a></h3>
+                  <h3><a href="http://www.cqlsmrw.com/home/mjmz/info/id/638/catId/16.html#top" title="梦回大唐，情系渝州（三）：白居易《种荔枝》" target="_self"  style="text-decoration:none"></a><hr size="1">
+                    <a href="../红色记忆/名人名作/5.html" title="名人笔下的重庆（四）：郭沫若之《重庆值得留恋》" target="_self"  style="text-decoration:none">名人笔下的重庆（四）：郭沫若之《重庆值得留恋》</a></h3>
+                  <h3>
+                    <hr size="1">
+                  <a href="../红色记忆/名人名作/6.html" title="冯玉祥爱国诗选" target="_self"  style="text-decoration:none">冯玉祥爱国诗选</a><hr size="1">
+                  <a href="../红色记忆/名人名作/7.html" title="刘雪庵：战歌和“黄歌”，都是他的歌……" target="_self"  style="text-decoration:none">刘雪庵：战歌和&ldquo;黄歌&rdquo;，都是他的歌……</a><hr size="1">
+                  <a href="../红色记忆/名人名作/8.html" title="陈子庄绘画作品选" target="_self"  style="text-decoration:none">陈子庄绘画作品选</a><hr
+                  size="1">
+                  <a href="../红色记忆/名人名作/9.html" title="陶行知作诗宣传抗日" target="_self"  style="text-decoration:none">陶行知作诗宣传抗日</a><hr size="1">
+                  <a href="../红色记忆/名人名作/10.html" title="“雾季公演”时期的名人名剧欣赏（一）：曹禺和话剧《家》" target="_self"  style="text-decoration:none">&ldquo;雾季公演&rdquo;时期的名人名剧欣赏（一）：曹禺和话剧《家》</a><hr
+                  size="1">
+                  <a href="../红色记忆/名人名作/11.html" title="“雾季公演”时期的名人名剧欣赏（二）： 吴祖光与话剧《风雪夜归人》" target="_self"  style="text-decoration:none">&ldquo;雾季公演&rdquo;时期的名人名剧欣赏（二）： 吴祖光与话剧《风雪夜归人》</a><hr size="1">
+                  <a href="../红色记忆/名人名作/12.html" title="“雾季公演”时期的名人名剧欣赏（三）：郭沫若和话剧《屈原》" target="_self"  style="text-decoration:none"> &ldquo;雾季公演&rdquo;时期的名人名剧欣赏（三）：郭沫若和话剧《屈原》</a></h3>
+                <p>&nbsp;</p></td>
+              </tr>
+</table>
+<audio autoplay="" loop=""><source src="音频/丁乔 - 根据地 [mqms].mp3"></audio>
+ <div class="top">
+
+</body>
+</html>
+</html>
