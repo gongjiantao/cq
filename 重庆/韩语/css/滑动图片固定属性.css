@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+        .b{
+            position: relative;
+            width: 1000px;/*图片框高宽*/
+            height: 600px;
+            border: 1px solid skyblue;
+            margin: 100px auto;
+        }
+        .a{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+        }
+        .a>img{
+	position: absolute;
+	width: 1000px;/*图片高宽*/
+	height: 600px;
+	transition: opacity 1s linear;
+	left: -1px;
+	top: 0px;
+        }
+        .imgop{
+            opacity: 0;
+        }
+        .imgopshow{
+            opacity: 1;
+        }
+        .dian {
+            position: absolute;
+            z-index: 99999;
+            bottom: 20px;
+            left: 40px;
+            height: 13px;
+        }
+ 
+        .dian > div {
+            width: 13px;
+            height: 13px;
+            border: 1px solid white;
+            background-color: transparent;
+            box-sizing: border-box;
+            float: left;
+            margin: 0 3px;
+            border-radius: 50%;
+            transition: background-color 0.5s linear;/*时间*/
+        }
+ 
+        .dbg {
+            background-color: red !important;
+        }
+        .btn{
+            width: 1000px;/*图片框宽*/
+            height: 50px;
+            position: absolute;
+            z-index: 999;
+            top: 175px;
+        }
+        .btnleft{
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            height: 50px;
+            background-color: silver;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+        }
+        .btnright{
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            height: 50px;
+            background-color: silver;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            line-height: 50px;
+            float: right;
+        }
+ 

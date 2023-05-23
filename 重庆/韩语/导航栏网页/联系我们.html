@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="../小插图/IMG_20220408_212943.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.lxj.com</title>
+<link href="../css/导航栏3.css" rel="stylesheet" type="text/css" />
+</head>
+<body  bgcolor="#FAF4EA">
+<audio autoplay="" loop=""><source src="音频/AUDIOJUNGLE常用音频素材(无水印)-会声会影X6_爱给网_aigei_com.mp3"></audio>
+
+ <div class="top">
+                   <center> 
+                    <ul>
+                    <li><a href="首页.html"> 홈페이지</a></li>
+                    <li><a href="重庆风采.html">충칭 풍채</a></li>
+                  
+                    <li><a href="各区风采.html">각 구역의 풍채</a></li>
+                    <li><a href="大城小事.html">대성의 작은 일</a></li>
+                    <li><a href="我们眼中的重庆.html">우리 눈의 충칭</a></li>
+                    <li><a href="红色记忆.html">붉은 기억</a></li>
+                       <li>
+                        <a href="../../导航栏网页/首页.html">中文</a>
+                        <ul>
+                            <li><a href="首页.html">한국어</a></li>
+                            <li><a href="../../英语/导航栏网页/首页.html">English</a></li>
+                        </ul>
+                        
+                    </li> 
+                     <li><a href="联系我们.html">우리에게 연락하다</a></li>
+                    
+                     </ul>
+</center>      
+            </div>
+
+
+
+<center><img src="../小插图/6b155c6409f17241fb9502733aa59a9ad81cc5addd38b2d2bef8256a555240a1.0.GIF" width="1049" height="373" /></center>
+<table width="965" height="323" align="center" cellspacing="6">
+  <tr>
+    <td width="568" height="58" align="center" bgcolor="#CCCCCC"><h2><strong>负责人：</strong>龚建涛</h2></td>
+    <td width="457" rowspan="4" align="center" bgcolor="#CCCCCC">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td height="55" align="center" bgcolor="#CCCCCC"><h2><strong>布局构架：</strong>陈伦海、龚建涛、王蕾</h2></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td height="41" align="center" bgcolor="#CCCCCC"><h2><strong>资源集合：</strong>尹虹元、唐波</h2></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td height="45" align="center" bgcolor="#CCCCCC"><h2><strong>内容填充：</strong>陈伦海、龚建涛</h2></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td height="33" align="center" bgcolor="#CCCCCC"><h2><strong>技术指导：</strong>何为老师</h2></td>
+    <td width="457" align="center" bgcolor="#CCCCCC"><h3>（陈伦海）</h3></td>
+  </tr>
+  <tr>
+    <td height="47" colspan="2" align="center" bgcolor="#CCCCCC"><h3>QQ邮箱：<b>3092976135@qq.com(龚建涛)</b></h3></td>
+  </tr>
+</table>
+<center><a href="../导航栏网页/联系我们.html"></a>
+</center>
+<script>
+        (function () {
+            var a_idx = 0;
+            window.onclick = function (event) {
+                var a = new Array("❤富强❤", "❤民主❤", "❤文明❤", "❤和谐❤", "❤自由❤", "❤平等❤", "❤公正❤", "❤法治❤", "❤爱国❤",
+                    "❤敬业❤", "❤诚信❤", "❤友善❤");
+ 
+                var heart = document.createElement("b"); //创建b元素
+                heart.onselectstart = new Function('event.returnValue=false'); //防止拖动
+ 
+                document.body.appendChild(heart).innerHTML = a[a_idx]; //将b元素添加到页面上
+                a_idx = (a_idx + 1) % a.length;
+                heart.style.cssText = "position: fixed;left:-100%;"; //给p元素设置样式
+ 
+                var f = 16, // 字体大小
+                    x = event.clientX - f / 2, // 横坐标
+                    y = event.clientY - f, // 纵坐标
+                    c = randomColor(), // 随机颜色
+                    a = 1, // 透明度
+                    s = 1.2; // 放大缩小
+ 
+                var timer = setInterval(function () { //添加定时器
+                    if (a <= 0) {
+                        document.body.removeChild(heart);
+                        clearInterval(timer);
+                    } else {
+                        heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                            c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                            s + ");";
+ 
+                        y--;
+                        a -= 0.016;
+                        s += 0.002;
+                    }
+                }, 15)
+ 
+            }
+            // 随机颜色
+            function randomColor() {
+ 
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+                .random() * 255)) + ")";
+ 
+            }
+        }());
+    </script>
+</body>
+</html>
