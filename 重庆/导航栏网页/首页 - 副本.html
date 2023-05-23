@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.lxj.com</title>
+  <link rel="shortcut icon" href="../小插图/IMG_20220408_212943.png" />
+   <link href="../css/导航栏固定属性.css" rel="stylesheet" type="text/css" />
+  <link href="../css/滑动图片固定属性.css" rel="stylesheet" type="text/css" />
+  <script>
+function myFunction(){
+	alert("请先登录！");
+}
+</script>
+</head>
+
+<body background="../../图片/123.jpg"><a name="a"></a>
+
+
+ <div class="top">
+                   <center> 
+                    <ul>
+                    <li><a href="首页.html">首页</a></li>
+                    <li><a href="../../../新建文件夹/滚动视频/index.html">重庆风采</a></li>
+                  
+                    <li><a href="各区风采.html">各区风采</a></li>
+                    <li><a href="大城小事.html">大城小事</a></li>
+                    <li><a href="我们眼中的重庆.html">我们眼中的重庆</a></li>
+                    <li><a href="红色记忆.html">红色记忆</a></li>
+                       <li>
+                        <a href="首页.html">中文</a>
+                        <ul>
+                            <li><a href="../韩语/导航栏网页/首页.html">한국어</a></li>
+                            <li><a href="../英语/导航栏网页/首页.html">English</a></li>
+                        </ul>
+                        
+                    </li> 
+                     <li><a href="联系我们.html">联系我们</a></li>
+                   <li><a href="../登录/MIQE/µÇÂ¼×¢²á»¬»ü/FFG.html">登陆</a></li>
+                     
+                     </ul>
+</center>      
+            </div>
+<table width="1300">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="1105" height="904"  align="center">
+  <tr>
+    <td height="155" colspan="2" valign="top" bgcolor="#FFFFFF"><p><center><img src="../首页素材/e244e07fc8e9a1ee7a81dff61261ce55.jpg" width="1076" height="447" align="middle" /></center></p><input type="button" onclick="myFunction()" value="" />
+      <h3>&nbsp;</h3>
+</td>
+  </tr>
+  <tr>
+    <td width="580" height="382" valign="top" bgcolor="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重庆，简称&ldquo;渝&rdquo;，别称山城，是中华人民共和国省级行政区、直辖市、国家中心城市、超大城市，国务院批复确定的国家重要的中心城市之一、长江上游地区经济中心、国家重要先进制造业中心、西部金融中心、西部国际综合交通枢纽和国际门户枢纽。截至2021年底，下辖26个区、8个县、4个自治县，总面积8.24万平方千米，常住人口3212.43万人。 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重庆地处中国内陆西南部，介于东经105°11'—110°11'、北纬28°10'—32°13'，是长江上游地区的经济、金融、科创、航运和商贸物流中心，国家物流枢纽，西部大开发重要的战略支点、&ldquo;一带一路&rdquo;和长江经济带重要联结点及内陆开放高地、山清水秀美丽之地；既以江城、雾都、桥都著称，又以山城扬名。重庆以汉族为主，少数民族主要有土家族、苗族等。有洪崖洞、长江三峡、世界遗产大足石刻、武隆喀斯特等景观。 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重庆是国家历史文化名城。1189年，宋光宗赵惇先封恭王再即帝位，升恭州为重庆府，重庆由此得名。重庆是&ldquo;红岩精神&rdquo;起源地，巴渝文化发祥地，&ldquo;火锅&rdquo;、&ldquo;吊脚楼&rdquo;等影响深远；在文字记载的3000余年中，曾三为国都，四次筑城，史称&ldquo;巴渝&rdquo;；抗战时期为国民政府陪都。 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重庆作为西南地区最大的工商业城市，工业互联网标识解析国家顶级节点，截至2021年底，建有中科院重庆科学中心、北京大学重庆大数据研究院等科研平台104所，在渝高校69所，中国（重庆）自由贸易试验区、中新（重庆）战略性互联互通示范项目、两江新区、西部陆海新通道等战略项目 </td>
+    <td width="513" valign="top" bgcolor="#FFFFFF">
+    <video src="../首页素材/重庆宣传片.mp4" controls="controls"  width="622" height="380"  ></video>
+    </td>
+  </tr>
+</table>
+<center>
+  <p>&nbsp;</p>  
+    <script>
+    var time;//接收计时器
+    var aPar=document.getElementsByClassName("a")[0];
+    var block=document.getElementsByClassName("b")[0];
+    var dianpar = document.getElementsByClassName("dian")[0];
+    var btnleft=document.getElementsByClassName("btnleft")[0];
+    var btnright=document.getElementsByClassName("btnright")[0];
+    var nowbg = dianpar.children[0];//当前变色的点元素
+ 
+    //调整图片的顺序
+    for (var i = 0; i < aPar.children.length; i++) {
+        aPar.children[i].style.zIndex = aPar.children.length - i - 1;
+    }
+    showAnimate();
+    function showAnimate(){
+        time=setInterval(function(){
+            countAnimate(1)
+        },2000)
+    }
+    function countAnimate(num){
+        for (var k = 0; k < num; k++) {
+            for (var i = 0; i < aPar.children.length; i++) {
+                var index = aPar.children[i].style.zIndex;
+                index++;
+                if (index == aPar.children.length) {
+                    index = 0;
+                    aPar.children[i].className = "imgop";
+                    dianpar.children[i].className = "";
+                }
+                if (index == aPar.children.length - 1) {
+                    dianpar.children[i].className = "dbg";
+                    nowbg = dianpar.children[i];
+                    aPar.children[i].className = "imgopshow";
+                }
+                aPar.children[i].style.zIndex = index;
+            }
+        }
+ 
+    }
+    for (var i = 0; i < dianpar.children.length; i++) {
+        dianpar.children[i].index = i;
+        dianpar.children[i].onmouseenter = function () {
+            nowbg.className = "";
+            this.className = "dbg";
+            var num = 0;
+            if (this.index - nowbg.index > 0) {
+                num = this.index - nowbg.index;
+            }
+            else {
+                num = dianpar.children.length - Math.abs(this.index - nowbg.index);
+            }
+            countAnimate(num);
+            nowbg = this;
+        }
+    }
+ 
+    block.onmouseenter=function(){
+        clearInterval(time);
+    };
+    block.onmouseleave=function(){
+        showAnimate();
+    };
+    btnleft.onclick=function(){
+        countAnimate(7);
+    };
+    btnright.onclick=function(){
+        countAnimate(1)
+    };
+   document.onselectstart=function(){
+	   return false;
+   };
+   </script>
+    
+  </p>
+  <table width="1306" height="257" border="1" align="left" bordercolor="#00CCFF">
+    <tr>
+      <td width="1296" bgcolor="#F7F7F7"><p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06441673.jpeg" width="1300" height="900" /></p>
+      <p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06441658.jpeg" width="1298" height="897" /></p>
+      <p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06415346.jpeg" width="1300" height="800" /></p>
+      <p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06415398.jpeg" width="1300" height="800" /></p>
+      <p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06441609.jpeg" width="1300" height="900" /></p>
+      <p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06441641.jpeg" width="1300" height="900" /></p>
+      <p><img src="../首页素材/图片/KING_IMG_ZOOM_20220520_06543140.jpeg" width="1300" height="900" /></p>
+      <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <table width="1300">
+    <tr>
+      <td><a href="#a"><img src="../小插图/QXqOB85j3Y.png" width="300" height="100" align="right" /></a></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</center>
+
+<div class="top">
+
+
+<script>
+        (function () {
+            var a_idx = 0;
+            window.onclick = function (event) {
+                var a = new Array("❤富强❤", "❤民主❤", "❤文明❤", "❤和谐❤", "❤自由❤", "❤平等❤", "❤公正❤", "❤法治❤", "❤爱国❤",
+                    "❤敬业❤", "❤诚信❤", "❤友善❤");
+ 
+                var heart = document.createElement("b"); //创建b元素
+                heart.onselectstart = new Function('event.returnValue=false'); //防止拖动
+ 
+                document.body.appendChild(heart).innerHTML = a[a_idx]; //将b元素添加到页面上
+                a_idx = (a_idx + 1) % a.length;
+                heart.style.cssText = "position: fixed;left:-100%;"; //给p元素设置样式
+ 
+                var f = 16, // 字体大小
+                    x = event.clientX - f / 2, // 横坐标
+                    y = event.clientY - f, // 纵坐标
+                    c = randomColor(), // 随机颜色
+                    a = 1, // 透明度
+                    s = 1.2; // 放大缩小
+ 
+                var timer = setInterval(function () { //添加定时器
+                    if (a <= 0) {
+                        document.body.removeChild(heart);
+                        clearInterval(timer);
+                    } else {
+                        heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                            c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                            s + ");";
+ 
+                        y--;
+                        a -= 0.016;
+                        s += 0.002;
+                    }
+                }, 15)
+ 
+            }
+            // 随机颜色
+            function randomColor() {
+ 
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+                .random() * 255)) + ")";
+ 
+            }
+        }());
+    </script>
+</body>
+</html>

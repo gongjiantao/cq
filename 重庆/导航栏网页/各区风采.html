@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="../小插图/IMG_20220408_212943.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.lxj.com</title>
+<link href="../css/鼠标悬停.css" rel="stylesheet" type="text/css" /></head>
+<link href="../css/导航栏5.css" rel="stylesheet" type="text/css" /></head>
+<body>
+<script>
+        (function () {
+            var a_idx = 0;
+            window.onclick = function (event) {
+                var a = new Array("❤富强❤", "❤民主❤", "❤文明❤", "❤和谐❤", "❤自由❤", "❤平等❤", "❤公正❤", "❤法治❤", "❤爱国❤",
+                    "❤敬业❤", "❤诚信❤", "❤友善❤","❤好学❤");
+ 
+                var heart = document.createElement("b"); //创建b元素
+                heart.onselectstart = new Function('event.returnValue=false'); //防止拖动
+ 
+                document.body.appendChild(heart).innerHTML = a[a_idx]; //将b元素添加到页面上
+                a_idx = (a_idx + 1) % a.length;
+                heart.style.cssText = "position: fixed;left:-100%;"; //给p元素设置样式
+ 
+                var f = 16, // 字体大小
+                    x = event.clientX - f / 2, // 横坐标
+                    y = event.clientY - f, // 纵坐标
+                    c = randomColor(), // 随机颜色
+                    a = 1, // 透明度
+                    s = 1.2; // 放大缩小
+ 
+                var timer = setInterval(function () { //添加定时器
+                    if (a <= 0) {
+                        document.body.removeChild(heart);
+                        clearInterval(timer);
+                    } else {
+                        heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                            c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                            s + ");";
+ 
+                        y--;
+                        a -= 0.016;
+                        s += 0.002;
+                    }
+                }, 15)
+ 
+            }
+            // 随机颜色
+            function randomColor() {
+ 
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+                .random() * 255)) + ")";
+ 
+            }
+        }());
+    </script>
+
+
+ <div class="top">
+                   <center> 
+                    <ul>
+                    <li><a href="首页.html">首页</a></li>
+                    <li><a href="../新建文件夹/滚动视频/index.html">重庆风采</a></li>
+                  
+                    <li><a href="各区风采.html">各区风采</a></li>
+                    <li><a href="大城小事.html">大城小事</a></li>
+                    <li><a href="我们眼中的重庆.html">我们眼中的重庆</a></li>
+                    <li><a href="红色记忆.html">红色记忆</a></li>
+                       <li>
+                        <a href="首页.html">中文</a>
+                        <ul>
+                            <li><a href="../韩语/导航栏网页/首页.html">한국어</a></li>
+                            <li><a href="../英语/导航栏网页/首页.html">English</a></li>
+                        </ul>
+                        
+                    </li> 
+                     <li><a href="联系我们.html">联系我们</a></li>
+                   
+                       <li><img src="../首页素材/图片/mmexport1653005128767.png" width="21" height="18" /><a href="../个人中心/1.html">个人中心</a><ul>
+                       <li><input type="radio" checked="checked" />无痕游览</li>
+                     
+                     </ul>
+</center>      
+            </div>
+<table width="1300" align="center">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="1300"  align="center">
+  <tr>
+    <td height="52">&nbsp;</td>
+  </tr>
+</table>
+<table width="1300" align="center">
+  <tr>
+    <td width="216" align="center"><a href="../各区风采（副本）/渝北.html" style="text-decoration:none">渝北区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/九龙坡.html" style="text-decoration:none" >九龙坡区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/渝中.html" style="text-decoration:none">渝中区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/江北.html" style="text-decoration:none">江北区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/涪陵.html" style="text-decoration:none">涪陵区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/江津.html" style="text-decoration:none">江津区</a></td>
+  </tr>
+  <tr>
+    <td width="216" align="center"><a href="../各区风采（副本）/沙坪坝.html" style="text-decoration:none">沙坪坝区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/永川.html" style="text-decoration:none">永川区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/万州.html" style="text-decoration:none">万州区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/合川.html" style="text-decoration:none">合川区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/巴南.html"style="text-decoration:none">巴南区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/南岸.html" style="text-decoration:none">南岸区</a></td>
+  </tr>
+  <tr>
+    <td width="216" align="center"><a href="../各区风采（副本）/长寿.html" style="text-decoration:none">长寿区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/璧山.html" style="text-decoration:none">璧山区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/綦江.html" style="text-decoration:none">綦江区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/大足.html" style="text-decoration:none">大足区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/荣昌.html" style="text-decoration:none">荣昌县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/铜梁.html" style="text-decoration:none">铜梁区</a></td>
+  </tr>
+  <tr>
+    <td width="216" align="center"><a href="../各区风采（副本）/北培.html" style="text-decoration:none">北培区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/开州.html" style="text-decoration:none">开州区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/梁平.html" style="text-decoration:none">梁平县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/潼南.html" style="text-decoration:none">潼南区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/云阳.html" style="text-decoration:none">云阳县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/垫江.html" style="text-decoration:none">垫江县</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="../各区风采（副本）/忠县.html" style="text-decoration:none">忠县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/南川.html" style="text-decoration:none">南川区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/丰都.html" style="text-decoration:none">丰都县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/奉节.html" style="text-decoration:none">奉节县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/大渡口.html" style="text-decoration:none">大渡口区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/黔江.html" style="text-decoration:none">黔江区</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="../各区风采（副本）/彭水.html" style="text-decoration:none">彭水县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/武隆.html" style="text-decoration:none">武隆区</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/酉阳.html" style="text-decoration:none">酉阳县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/巫山.html" style="text-decoration:none">巫山县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/石柱.html" style="text-decoration:none">石柱县</a></td>
+    <td width="216" align="center"><a href="../各区风采（副本）/巫溪.html" style="text-decoration:none">巫溪县</a></td>
+  </tr>
+</table>
+<table width="1300"  align="center" cellspacing="12">
+  <tr>
+    <td width="282" align="center" valign="middle" bgcolor="#CCCCFF"><h2>各区综合排名</h2></td>
+    <td width="285" align="center" valign="middle" bgcolor="#CCCCFF"><h2>各区名</h2></td>
+    <td width="282" align="center" valign="middle" bgcolor="#CCCCFF"><h2>占地面积</h2></td>
+    <td colspan="2" align="center" valign="middle" bgcolor="#CCCCFF"><h2>GDP</h2></td>
+  </tr>
+  <tr>
+    <td height="40" colspan="2" align="center" valign="middle" bgcolor="#CCCCFF">&nbsp;</td>
+    <td height="40" align="center" valign="middle" bgcolor="#CCCCFF">单位（Km<sup>2）</sup></td>
+    <td height="40" align="center" valign="middle" bgcolor="#CCCCFF">绝对值（亿元）</td>
+    <td align="center" valign="middle" bgcolor="#CCCCFF">同比±%</td>
+  </tr>
+  <tr>
+    <td height="49" align="center" valign="middle" bgcolor="#CCCCFF">&nbsp;</td>
+    <td height="49" align="center" valign="middle" bgcolor="#CCCCFF">全市</td>
+    <td height="49" align="center" valign="middle" bgcolor="#CCCCFF">&nbsp;</td>
+    <td height="49" align="center" valign="middle" bgcolor="#CCCCFF">12903.41</td>
+    <td align="center" valign="middle" bgcolor="#CCCCFF">12.8%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">1</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='高老庄特色小吃'>
+	<p>渝北区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1457</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1079.98</td>
+    <td width="209" align="center" valign="middle" bgcolor="#E1D7E0">14.2%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">2</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='金凤烤羊'>
+      <p>九龙坡区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">413</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">826.94</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">14.1%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">3</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='鸭参粥'>
+      <p>渝中区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">23</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">722.52</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">10.1%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">4</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='豆花饭馆'>
+      <p>江北区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">221</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">712.16</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.3%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">5</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='榨菜'>
+      <p>涪陵区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2941</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">644.15</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">6</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='米花糖'>
+      <p>江津区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">3216</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">568.56</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">7</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='米花糖'>
+      <p>沙坪坝区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">396</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">540.20</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">8</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='星湖鱼'>
+      <p>永川区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1579</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">521.33</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">14.6%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">9</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='烤鱼'>
+      <p>万州区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">3453</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">501.60</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.8%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">10</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='北渡鱼'>
+      <p>合川区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2343</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">457.92</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">5.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">11</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='毛血旺'>
+      <p>巴南区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1823</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">445.68</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.9%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">12</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='南山泉水鸡'>
+      <p>南岸区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">262</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">432.59</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.8%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">13</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='肥肠饭'>
+      <p>长寿区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1421</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><p>394.78</p></td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.4%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">14</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='桃片糕'>
+      <p>璧山区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">915</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">390.35</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">14.5%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">15</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='黑山方竹笋'>
+      <p>綦江区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2747</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">360.86</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">10.2%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">16</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='邮亭鲫鱼'>
+      <p>大足区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1434</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">358.42</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">14.2%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">17</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='黄凉粉'>
+      <p>荣昌县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1077</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">355.77</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.9%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">18</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='泡椒凤爪'>
+      <p>铜梁区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1341</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">335.19</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.4%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">19</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='北泉水磨手工面'>
+      <p>北培区</h1></p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">712</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">333.36</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.3%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">20</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='椒麻牛肉'>
+      <p>开州区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">3964</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">277.70</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">14.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">21</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='张鸭子'>
+      <p>梁平县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1888</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">243.16</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.2%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">22</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='太安鱼'>
+<p>潼南区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1585</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">234.35</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.3%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">23</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='牛肉干'>
+      <p>云阳县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">3636</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">230.38</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">24</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='豆花'>
+      <p>垫江县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">1517</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">228.95</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.8%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">25</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='香山蜜饼'>
+      <p>忠县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2187</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">221.33</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.4%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">26</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='糯米油棕'>
+      <p>南川区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2589</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">178.86</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.9%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">27</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='麻辣鸡块'>
+      <p>丰都县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2895</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">164.21</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">28</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='！'>
+      <p>奉节县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">4098</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">153.85</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">12.8%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">29</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='米豆腐'>
+      <p>秀山县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2453</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">148.07</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">9.5%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">30</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='霍记蹄花面蹄花面'>
+      <p>大渡口区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">103</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">142.01</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">31</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='鸡杂'>
+      <p>黔江区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2390</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">120.43</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">9.5%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">32</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='荞面豆花'>
+      <p>彭水县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">3897</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">117.50</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">9.7%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">33</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='碗碗牛肉'>
+      <p>武隆区</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2892</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">109.14</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">10.6%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">34</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='绿豆面'>
+      <p>酉阳县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">5168</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">96.74</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">9.1%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">35</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='翡翠凉粉'>
+      <p>巫山县</p></div>	
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">2955</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">94.82</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">13.1%</td>
+  </tr>
+  <tr>
+    <td height="78" align="center" valign="middle" bgcolor="#E1D7E0">36</td>
+    <td width="285" height="78" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='鸡公鸡公煲'>
+      <p>石柱县</p></div>
+</td>
+    <td width="282" height="78" align="center" valign="middle" bgcolor="#E1D7E0">3014</td>
+    <td width="218" height="78" align="center" valign="middle" bgcolor="#E1D7E0">80.86</td>
+    <td width="209" height="78" align="center" valign="middle" bgcolor="#E1D7E0">8.9%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">37</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='烤鱼'>
+      <p>巫溪县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">4015</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">51.35</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">5.0%</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="middle" bgcolor="#E1D7E0">38</td>
+    <td width="285" height="40" align="center" valign="middle" bgcolor="#E1D7E0"><div class='hiddenMemo' title='老腊肉'>
+      <p>城口县</p></div>
+</td>
+    <td width="282" height="40" align="center" valign="middle" bgcolor="#E1D7E0">3289</td>
+    <td width="218" height="40" align="center" valign="middle" bgcolor="#E1D7E0">27.32</td>
+    <td width="209" height="40" align="center" valign="middle" bgcolor="#E1D7E0">9.0%</td>
+  </tr>
+</table>
+
+</body>
+</html>
